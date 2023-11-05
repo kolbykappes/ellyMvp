@@ -6,10 +6,12 @@
 <body>
     <form action="/" method="post">
         <label for="title">Title:</label>
-        <input type="text" id="title" name="title" required><br><br>
+        <!-- Set the value of the title input field -->
+        <input type="text" id="title" name="title" required value="{{ title }}"><br><br>
         
         <label for="description">Description:</label><br>
-        <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+        <!-- Set the value of the description textarea -->
+        <textarea id="description" name="description" rows="4" cols="50">{{ description }}</textarea><br><br>
         
         <input type="submit" value="Ask Elly">
     </form>
