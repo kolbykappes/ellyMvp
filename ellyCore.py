@@ -25,13 +25,14 @@ def index():
             title = "java programmer"
             description = "I need a fancy java dev to write an app"
 
-        with open("prompt.txt", "r") as f:
+        with open("prompt2.txt", "r") as f:
             base_prompt = f.read()
 
         prompt = base_prompt + " " + title + " " + description
 
         completion = openai.ChatCompletion.create(
             model="gpt-4-0613",
+#            model="gpt-3.5-turbo",            
             messages=[
                 {"role": "system", "content": "You are a helpful assistant with lots of IT experience and HR experience."},
                 {"role": "user", "content": prompt}

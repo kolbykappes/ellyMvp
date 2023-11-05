@@ -1,7 +1,6 @@
 schema = {
   "type": "object",
   "properties": {
-    "Match_ID": { "type": "integer" },
     "Job Title": { "type": "string" },
     "OEMs": {
       "type": "array",
@@ -28,5 +27,5 @@ schema = {
       }    
     }
   },
-  "required": ["Match_ID", "Job Title", "OEMs", "Technologies", "Skills", "Domains"]
+  "required": ["Job Title", "OEMs", "Technologies", "Skills", "Domains"]
 }

@@ -1,0 +1,25 @@
+Junior DevOps Engineer - Level I
+
+Are you a recent Computer Science / CIS / MIS graduate, or self-taught Operations Engineer who is looking to get started in a software engineering career? Then come join our team!
+We’re looking for entry-level DevOps engineers who are ready to work hard and get their start. Strong written/verbal communication skills, and a passion to learn are a must!
+We don't have a specific technology stack that we work in, but a number of our current projects are using: C#, Java, TypeScript, .NET Core, Redux, Angular, MVC, AWS, Azure, Microservices, SQL Server and Oracle. We’re writing software for the Azure and AWS cloud platforms and our DevOps engineers use technologies like Ansible, Bamboo, Docker, Git, Jenkins and Maven.
+Lightwell is an IT consultancy that has been delivering tailored technology solutions to our clients all over the country for over 25 years. We like working with people who love solving problems, who work hard and are passionate about technology.
+
+Responsibilities
+Under the direction of a Senior DevOps Engineer, be involved in the Infrastructure, Deployment and Development operations through automation for the digital systems and supporting software tools.
+Automation of repeatable processes where possible
+Evangelize the principles and mindset of DevOps, drive and support various projects and initiatives
+Identify and plan for optimization of resources and cost reduction wherever possible
+Recommend and prove the best technology practices, principles and tools for the job
+Provide status of work and deliverable estimate to Lightwell delivery leader.
+Work independently and as part of a team
+Anticipate, identify, track and resolve issues and risks.
+
+Must Haves:
+Completed an IT boot camp, 2 year IT degree or 4 year IT degree
+1-2 years’ experience in IT infrastructure / app development
+Experience with pertinent software tools (Jenkins, Git, Docker, etc.)
+Knowledge of Continuous Integration/Deployment/Delivery principles, practices, tools and process
+Knowledge of modern cloud infrastructure, APIs and virtualization concerns
+Access to a reliable, high speed internet access at home
+Ability to work in an agile, multi skilled team

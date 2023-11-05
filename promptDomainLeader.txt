@@ -1,0 +1,28 @@
+i have 4 domains for my IT consulting business. The business is called Eliassen Group. Here are their names and leaders. 
+
+AppDev
+- Full name - App Dev, Integration, SW Engineering
+- Domain Leader - Kolby Kappes
+- Delivery Leader - Matt Barna
+- Pro Serv - yes
+
+Data
+- Full name - Data Science / Analytics
+- Domain Leader - Troy Gottfried
+- Delivery Leader - Brian Kirkpatrick
+- Pro Serv - yes
+
+Agile
+- Full name - Tech Optimization / Program Mgmt
+- Domain Leader - Jason Kline
+- Delivery Leader - Bob Fischer
+- Pro Serv - yes
+
+Cyber
+- Full name - Cybersecurity
+- Domain Leader - Trey Gannon
+- Pro Serv - no
+
+I want you to look at this data and give me the leaders and key info for this domain:
+
+
