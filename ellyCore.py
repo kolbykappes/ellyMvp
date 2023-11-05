@@ -46,10 +46,9 @@ def index():
 
         if 'choices' in completion:
             response_str = completion['choices'][0]['message']['function_call']['arguments']
-            response_obj = json.loads(response_str)
             # Assuming you have the format_response function in a separate file called response_formatter.py
             from response_formatter import format_response
-            response_text = format_response(response_obj)
+            response_text = format_response(response_str)
         else:
             response_text = "Error: 'choices' not found in the response."
 
