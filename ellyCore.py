@@ -59,7 +59,7 @@ def index():
     else:
         response_section_display = 'none'
 
-    return render_template("index.html", response=response_text, title=title, description=description, response_section_display=response_section_display)
+    return render_template("index.html", response=response_text, formatted_response2="Resp2", formatted_response3="Resp3", title=title, description=description, response_section_display=response_section_display)
 
 if __name__ == "__main__":
     app.run(debug=True)
