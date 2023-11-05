@@ -2,6 +2,12 @@
 <html>
 <head>
     <title>Elly Assistant</title>
+    <style>
+        .elly-response-section {
+            display: none;
+        }
+    </style>
+    
     <script>
         // JavaScript function to detect enter key press in the textarea
         function submitFormOnEnter(event) {
@@ -10,8 +16,7 @@
                 document.querySelector("form").submit();  // Submit the form
             }
         }
-    </script>
-    <script>
+
         function toggleSpinner(show) {
             const spinner = document.getElementById('spinner');
             if (show) {
@@ -27,6 +32,13 @@
                 toggleSpinner(true);
             });
         });
+
+        function clearFields() {
+            document.getElementById('title').value = '';
+            document.getElementById('description').value = '';
+            document.querySelector('.elly-response-section').style.display = 'none';
+        }
+
     </script>
     
     <!-- Bootstrap CSS -->
@@ -53,15 +65,16 @@
             </div>
             
             <button type="submit" class="btn btn-primary">Ask Elly</button>
+            <button type="button" class="btn btn-secondary ml-2" onclick="clearFields()">Clear</button>
         </form>
         <div id="spinner" class="spinner-border text-primary" role="status" style="display: none;">
             <span class="sr-only">Loading...</span>
         </div>
         
     
-        <div class="mt-4">
+        <div class="elly-response-section">
             <h4>Elly's Response:</h4>
-            <p>{{ response|safe }}</p>
+            <p class="elly-response">{{ response|safe }}</p>
         </div>
     </div>
     </body>
