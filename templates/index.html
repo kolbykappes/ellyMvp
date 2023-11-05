@@ -2,16 +2,24 @@
 <html>
 <head>
     <title>Elly Assistant</title>
+    <script>
+        // JavaScript function to detect enter key press in the textarea
+        function submitFormOnEnter(event) {
+            if (event.keyCode === 13) {  // 13 is the keycode for the enter key
+                event.preventDefault();  // Prevent the default behavior (newline in textarea)
+                document.querySelector("form").submit();  // Submit the form
+            }
+        }
+    </script>
 </head>
 <body>
     <form action="/" method="post">
         <label for="title">Title:</label>
-        <!-- Set the value of the title input field -->
         <input type="text" id="title" name="title" required value="{{ title }}"><br><br>
         
         <label for="description">Description:</label><br>
-        <!-- Set the value of the description textarea -->
-        <textarea id="description" name="description" rows="4" cols="50">{{ description }}</textarea><br><br>
+        <!-- Attach the event listener to the textarea -->
+        <textarea id="description" name="description" rows="4" cols="50" onkeydown="submitFormOnEnter(event)">{{ description }}</textarea><br><br>
         
         <input type="submit" value="Ask Elly">
     </form>
