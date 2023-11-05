@@ -7,7 +7,6 @@ app = Flask(__name__)
 
 openai.api_key = "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"
 OPENAI_URL = "https://api.openai.com/v2/engines/davinci/completions"
-API_KEY = "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"
 
 # Assuming you have the schema in a separate file called schema.py
 from schema import schema
@@ -42,14 +41,17 @@ def index():
             temperature=0
         )
 
-        try:
-            response_obj = json.loads(completion.choices[0].message.function_call.arguments)
+        # Print the entire response to the console
+        print("OpenAI API Response:", completion)
+
+        if 'choices' in completion:
+            response_str = completion['choices'][0]['message']['function_call']['arguments']
+            response_obj = json.loads(response_str)
             # Assuming you have the format_response function in a separate file called response_formatter.py
             from response_formatter import format_response
             response_text = format_response(response_obj)
-
-        except Exception as e:
-            response_text = f"Error: {str(e)}"
+        else:
+            response_text = "Error: 'choices' not found in the response."
 
     # Determine whether to show the Elly's Response section
     if response_text:

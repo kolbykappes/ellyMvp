@@ -3,9 +3,23 @@
 <head>
     <title>Elly Assistant</title>
     <style>
-        .elly-response-section {
-            display: none;
+        .form-container {
+            display: flex;
+            justify-content: space-between;  /* This will push the image and form apart */
+            align-items: start;  /* This will align the top of the image and form */
         }
+
+        .elly-bot-image {
+            width: 200px;  /* Adjust as needed */
+            height: auto;
+            margin-right: 20px;  /* Space between the image and form */
+        }
+
+        /* Style for the form to make it more narrow */
+        form {
+            flex: 1;  /* This will make the form take up the remaining space */
+            max-width: 60%;  /* Adjust as needed */
+        }     
     </style>
     
     <script>
@@ -53,6 +67,8 @@
 <body>
     <div class="container mt-5">
         <h2>Elly Assistant</h2>
+
+    <div class="form-container">
         <form action="/" method="post" class="mt-4">
             <div class="form-group">
                 <label for="title">Title:</label>
@@ -67,15 +83,15 @@
             <button type="submit" class="btn btn-primary">Ask Elly</button>
             <button type="button" class="btn btn-secondary ml-2" onclick="clearFields()">Clear</button>
         </form>
+        <img src="{{ url_for('static', filename='ellyBot.png') }}" alt="Elly Bot" class="elly-bot-image">
         <div id="spinner" class="spinner-border text-primary" role="status" style="display: none;">
             <span class="sr-only">Loading...</span>
         </div>
-        
-    
-        <div class="elly-response-section">
-            <h4>Elly's Response:</h4>
-            <p class="elly-response">{{ response|safe }}</p>
-        </div>
+    </div>
+    <div class="elly-response-section" style="display: {{ response_section_display }}">
+        <h4>Elly's Response:</h4>
+        <p class="elly-response">{{ response|safe }}</p>
+    </div>
     </div>
     </body>
 </html>
