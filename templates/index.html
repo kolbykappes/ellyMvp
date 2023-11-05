@@ -11,22 +11,58 @@
             }
         }
     </script>
+    <script>
+        function toggleSpinner(show) {
+            const spinner = document.getElementById('spinner');
+            if (show) {
+                spinner.style.display = 'inline-block';
+            } else {
+                spinner.style.display = 'none';
+            }
+        }
+    
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.querySelector('form');
+            form.addEventListener('submit', function() {
+                toggleSpinner(true);
+            });
+        });
+    </script>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Optional Bootstrap JavaScript and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </head>
 <body>
-    <form action="/" method="post">
-        <label for="title">Title:</label>
-        <input type="text" id="title" name="title" required value="{{ title }}"><br><br>
+    <div class="container mt-5">
+        <h2>Elly Assistant</h2>
+        <form action="/" method="post" class="mt-4">
+            <div class="form-group">
+                <label for="title">Title:</label>
+                <input type="text" class="form-control" id="title" name="title" required value="{{ title }}">
+            </div>
+            
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea class="form-control" id="description" name="description" rows="4">{{ description }}</textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Ask Elly</button>
+        </form>
+        <div id="spinner" class="spinner-border text-primary" role="status" style="display: none;">
+            <span class="sr-only">Loading...</span>
+        </div>
         
-        <label for="description">Description:</label><br>
-        <!-- Attach the event listener to the textarea -->
-        <textarea id="description" name="description" rows="4" cols="50" onkeydown="submitFormOnEnter(event)">{{ description }}</textarea><br><br>
-        
-        <input type="submit" value="Ask Elly">
-    </form>
-
-    <div>
-        <p><strong>Elly's Response:</strong></p>
-        <p>{{ response }}</p>
+    
+        <div class="mt-4">
+            <h4>Elly's Response:</h4>
+            <p>{{ response|safe }}</p>
+        </div>
     </div>
-</body>
+    </body>
 </html>
