@@ -1,0 +1,20 @@
+i have 4 domains for my IT consulting business. The business is called Eliassen Group. Here are some key resouces
+
+AppDev
+- Sales campaigns
+- Momentum Acclerators
+
+Data
+- None
+
+Agile
+- Fancy demos
+
+Cyber
+- Cyber sunday cookies
+
+I want you to look at this data and give me a summary of appropriate resources based on this domain:
+
+
+
+

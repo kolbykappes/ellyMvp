@@ -16,6 +16,8 @@ def index():
     title = ""
     description = ""
     response_text = ""
+    formatted_response2 = ""
+    formatted_response3 = ""
 
     if request.method == "POST":
         title = request.form.get("title")
@@ -50,6 +52,34 @@ def index():
             # Assuming you have the format_response function in a separate file called response_formatter.py
             from response_formatter import format_response
             response_text = format_response(response_str)
+
+            domain_result = json.loads(response_str).get("Domains", [{}])[0].get("domain", "")
+            print("Domain Result:", domain_result)
+
+
+            with open("promptDomainLeader.txt", "r") as f:
+                domain_leader_prompt = f.read()
+            prompt2 = domain_leader_prompt + " " + domain_result
+            completion2 = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",            
+                messages=[
+                    {"role": "system", "content": "You are a helpful assistant."},
+                    {"role": "user", "content": prompt2}
+                ]
+            )
+            formatted_response2 = completion2['choices'][0]['message']['content']
+
+            with open("promptDomainResources.txt", "r") as f:
+                domain_resources_prompt = f.read()
+            prompt3 = domain_resources_prompt + " " + domain_result
+            completion3 = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",            
+                messages=[
+                    {"role": "system", "content": "You are a helpful assistant."},
+                    {"role": "user", "content": prompt3}
+                ]
+            )
+            formatted_response3 = completion3['choices'][0]['message']['content']
         else:
             response_text = "Error: 'choices' not found in the response."
 
@@ -59,7 +89,7 @@ def index():
     else:
         response_section_display = 'none'
 
-    return render_template("index.html", response=response_text, formatted_response2="Resp2", formatted_response3="Resp3", title=title, description=description, response_section_display=response_section_display)
+    return render_template("index.html", response=response_text, formatted_response2=formatted_response2, formatted_response3=formatted_response3, title=title, description=description, response_section_display=response_section_display)
 
 if __name__ == "__main__":
     app.run(debug=True)
