@@ -5,8 +5,7 @@ import openai
 
 app = Flask(__name__)
 
-#openai.api_key = "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"
-openai.api_key = "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"
+openai.api_key = "KEY_HERE"
 
 OPENAI_URL = "https://api.openai.com/v2/engines/davinci/completions"
 
