@@ -32,11 +32,11 @@ tech writer, contract IT roles, computer operator,
 8. Other - Anything that doesn't clearly fit into one of these categories
 
 The output should have:
-- Title
-- Summary of job description
-- OEMs and their products found in the position description - up to 5 items in the list
-- technologies found in the position description - up to 5 items in the list
-- list of non-technical skills in the position description - up to 5 items in the list
+- Title of the position
 - One or more domains ordered by percentage likelihood from the above list.
+- OEMs and their products found in the position description - up to 5 items in the list
+- Technologies found in the position description - up to 5 items in the list
+- list of non-technical skills in the position description - up to 5 items in the list
+- Possible issues - look for inconsistencies in the job title and description and highlight them here. Things that don't make sense contextually.
 
 Use the following information to make your decisions:

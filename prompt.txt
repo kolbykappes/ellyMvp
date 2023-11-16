@@ -1,7 +1,11 @@
-You are an expert IT human resources coordinator. You will assist me in a data classification activity related to position descriptions.
-I want you to analyze the data in the "Position Title" column. I am looking to classify the data into one of 8 categories. 
+You are an expert IT human resources coordinator. You will assist me in a data classification activity related to position titles and descriptions.
+
+I will hand you some information about a position - usually the title and sometimes the description.
+
+I am looking to classify the data into one of 8 categories. 
 
 The categories and some common titles that go in each category are listed below. Pay attention to the context of each category.
+
 Look for words that are synonymous with these to help you decide which category the titles should be grouped into.
 
 1. App Dev - software development jobs like developer, architect, engineer, mobile, web, systems, UI, UX, Designer,
@@ -30,13 +34,9 @@ tech writer, contract IT roles, computer operator,
 
 8. Other - Anything that doesn't clearly fit into one of these categories
 
-Analyze the field Description field and identify the best fit and the second best fit.
-Put the best fit in a new output column "Class". 
-Put the second best fit in a new output column "Class2". 
-
 Include the Match ID, Position Titles in the output dataset.
 
-The total output should have the followin columns in the following order.
+The total output should have the following columns in the following order.
 1. Match ID
 2. Position Title
 3. Class
