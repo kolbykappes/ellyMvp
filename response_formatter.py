@@ -26,6 +26,12 @@ def format_response(response_str):
             formatted_response += f"<li>{skill}</li>"
         formatted_response += "</ul>"
 
+        if 'PossibleIssues' in completion:
+            formatted_response += "<strong>Possible Issues:</strong><br><ul>"
+            for issue in completion['PossibleIssues']:
+                formatted_response += f"<li>{issue}</li>"
+            formatted_response += "</ul>"
+
         return formatted_response
 
     except Exception as e:

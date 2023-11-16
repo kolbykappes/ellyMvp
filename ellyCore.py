@@ -1,11 +1,15 @@
 from flask import Flask, render_template, request
+from dotenv import load_dotenv
+import os
 import requests
 import json
 import openai
 
+load_dotenv() # take environment variables from .env.
+
 app = Flask(__name__)
 
-openai.api_key = "KEY_HERE"
+openai.api_key = os.getenv('API_KEY')
 
 OPENAI_URL = "https://api.openai.com/v2/engines/davinci/completions"
 
