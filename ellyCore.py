@@ -5,6 +5,13 @@ import requests
 import json
 import openai
 
+suggested_starters = [
+    "Tell me about your latest project.",
+    "How can I assist you with your IT needs?",
+    "I'm interested in learning about new technologies.",
+    "What challenges are you facing in app development?"
+]
+
 load_dotenv() # take environment variables from .env.
 
 app = Flask(__name__)
