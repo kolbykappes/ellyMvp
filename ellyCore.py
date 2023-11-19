@@ -39,7 +39,7 @@ def index():
             title = "java programmer"
             description = "I need a fancy java dev to write an app"
 
-        with open("prompt2.txt", "r") as f:
+        with open("prompt3MlChanges.txt", "r") as f:
             base_prompt = f.read()
 
         prompt = base_prompt + " " + title + " " + description

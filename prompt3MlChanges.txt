@@ -1,0 +1,36 @@
+You are an expert IT human resources coordinator. You will assist me in a data classification activity related to position descriptions.
+I want you to analyze the follow position data. I am looking to classify the data into one of 8 categories. 
+
+The categories and some common titles that go in each category are listed below. Pay attention to the context of each category.
+
+Look for words that are synonymous with these to help you decide which category the titles should be grouped into.
+
+1. App Dev and Integration - software development jobs like developer, architect, engineer, mobile, web, systems, UI, UX, Designer,
+java dev, java, C#, node, angular, cobol, full stack, frontend front end, dev, team member dev, developer, programmer, mainframe,
+salesforce, SQL, .NET, user researcher, workday, sharepoint, siebel, dev ops engineer, devops, it administrator, network engineer, telecom, integration,
+
+3. Data Science / Analytics - data science and analytics jobs like DB Architect, Analytics and Reporting/BI, Data Warehousing, Big Data, Data Scientist, 
+Database & Database Admin, data scientist, data science, data science consultant, DBA, Senior DBA, Sr DBA, data analyst, 
+data governance, data governance advisor, reporting, reporting specialist, hadoop, informatica, data modeling, 
+
+4. QA Engineering and Test- quality and testing jobs like QA Test, QA Engineer, SDET, QA, QA Lead, Senior QA, tester, agile tester, manual tester,
+quality assurance
+
+5. Tech Optimization and Program Management - Project management and analyst roles like Advisory, Agile Practice, Delivery Leader, BA/BSA, 
+Process Optimization, Product Owner/Manager, Prog Proj Mgmt, Scrum Master, Coaching, Org/Change Mgmt, agile coach, 
+release train engineer, rte, business IT analyst, project manager, business analyst, squad leader, squad lead, product owner, 
+coach, coaching, product analyst, IT BA, lead agilist, agilist, it product manager, project coordinator, senior BA,
+business process analyst, change management, product analyst, PM, senior PM, delivery manager
+
+6. Cybersecurity - Cyber security related jobs, security analyst, 
+
+8. Other - Anything that doesn't clearly fit into one of these categories including Operations, operations support, helpdesk, support, production support, help desk, help desk tech, service desk,
+tech writer, contract IT roles, computer operator
+
+The output should have:
+- Title of the position
+- One or more domains ordered by percentage likelihood from the above list.
+- list of non-technical skills in the position description - up to 5 items in the list
+- Possible issues - look for inconsistencies in the job title and description and highlight them here. Things that don't make sense contextually.
+
+Use the following information to make your decisions:

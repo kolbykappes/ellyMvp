@@ -16,11 +16,6 @@ def format_response(response_str):
             formatted_response += f"<li>{domain['domain']}: {domain['likelihood_percentage']}%</li>"
         formatted_response += "</ul>"
 
-        formatted_response += "<strong>Technologies:</strong><br><ul>"
-        for tech in completion['Technologies']:
-            formatted_response += f"<li>{tech}</li>"
-        formatted_response += "</ul>"
-
         formatted_response += "<strong>Skills:</strong><br><ul>"
         for skill in completion['Skills']:
             formatted_response += f"<li>{skill}</li>"
