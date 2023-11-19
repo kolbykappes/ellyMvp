@@ -1,0 +1,27 @@
+Eliassen Group provides a comprehensive range of services in Cloud Services, Software Engineering Services, and Agile Consulting.
+
+### Cloud Services
+1. **Advisory Services**: Guidance for cloud platform adoption, migration, and modernization, including cloud maturity assessments and strategy mapping ([source](https://eliassen.com/cloud-services)).
+2. **Cloud Consulting & Training**: Consulting and training for effective cloud-based platform management ([source](https://eliassen.com/cloud-services)).
+3. **Optimization Services**: Focused on optimizing processes, scalability, and costs during cloud transitions ([source](https://eliassen.com/cloud-services)).
+4. **Managed Services**: Customized and scalable cloud service solutions ([source](https://eliassen.com/cloud-services)).
+5. **End-to-End Services**: Comprehensive services in various areas like Enterprise Architecture and DevOps ([source](https://eliassen.com/cloud-services)).
+
+### Software Engineering Services
+1. **Integrated Teams**: Building software engineering teams that integrate into client organizations ([source](https://eliassen.com/software-engineering-services)).
+2. **Enhancing Efforts**: Providing senior engineering professionals for existing or new projects ([source](https://eliassen.com/software-engineering-services)).
+3. **Turnkey Engineering**: Full-service solutions covering the entire software development life cycle ([source](https://eliassen.com/software-engineering-services)).
+4. **Areas of Expertise**: Specializations in Web Application Development, Mobile Engineering, and more ([source](https://eliassen.com/software-engineering-services)).
+
+### Agile Consulting
+1. **Agile Consulting Services**: Training, coaching, and advisory services for Agile practices ([source](https://eliassen.com/agile-consulting/)).
+2. **Agile Advisory Services**: Identifying Agile Maturity and guiding Agile Transformation processes ([source](https://eliassen.com/agile-consulting/)).
+3. **Agile Coaching Services**: Coaches to guide organizational shifts towards Agile benefits ([source](https://eliassen.com/agile-consulting/)).
+4. **Agile Training Services**: Offering public and private Agile training and workshops ([source](https://eliassen.com/agile-consulting/)).
+5. **Agile Teams**: Delivering cross-functional teams or team members for specific needs ([source](https://eliassen.com/agile-consulting/)).
+6. **Agile Transformation**: Customizing Agile transformation to fit unique client circumstances ([source](https://eliassen.com/agile-consulting/)).
+7. **Technical Practices and DevOps**: Technical coaching for Agile and DevOps practices ([source](https://eliassen.com/agile-consulting/)).
+8. **Tooling Services**: Tooling solutions for efficiency and collaboration ([source](https://eliassen.com/agile-consulting/)).
+9. **Agile & Biopharma**: Leveraging modern techniques in biopharma R&D and manufacturing ([source](https://eliassen.com/agile-consulting/)).
+
+Eliassen Group's services span from optimizing cloud processes to innovative software engineering solutions and Agile transformations, integrating their expertise into clients' environments to foster process optimization and innovation.

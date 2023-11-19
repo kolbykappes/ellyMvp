@@ -1,0 +1,44 @@
+Had one engagement with them
+	- 20 hours a week
+	- They have 2 contract to hire sales managers in London 
+		○ Looking at standing up a sales team in London
+		○ A variety of euro clients
+
+Submittable is a social impact platform that helps organizations manage and run application-based programs. These programs can include grants, scholarships, awards, fellowships, competitions, and more. Submittable provides a centralized platform for organizations to accept applications, review submissions, make decisions, and disburse funds. It also helps organizations track program progress, measure results, and engage with applicants.
+
+Submittable is used by a wide variety of organizations, including nonprofits, foundations, government agencies, and universities. The company has been recognized for its innovative technology and its commitment to social impact. Submittable was named one of the Best Places to Work in Montana in 2022 and 2023.
+
+1-3 people initially with a mix of pre and post sales enablement
+	- Solution Engineering
+	- Enablement
+	- Project management
+
+End to end grant management solution
+	- Automation
+	- Plug into ERPs and CRMs
+
+Presales
+	- Integration is a heavier aspect of it
+	- Requirements gathering
+	- Solution design
+
+A split between solution engineer and sales rep
+
+Goverrnment and Foundation are their main customer
+
+Utilization rate would be about 70% for client and client projects
+5 teams
+	- Solution Engineers
+	- 4 post sales implementation engineering teams
+
+Python is their main language they use for integration
+
+He would be interested in converting the resources
+They would be white-labeled
+
+What's the split between presales and post-sales
+They are two separate roles - do you try to merge that earlier on?
+
+About 2-3 month engagement on the sales cycle - part of that is SoW authoring, testing and validation with APIs
+
+3 people - 1 functional, 1 presales, 1 post sales

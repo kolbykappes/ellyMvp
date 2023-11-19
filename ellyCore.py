@@ -6,9 +6,9 @@ import json
 import openai
 
 suggested_starters = [
-    "Tell me about your latest project.",
-    "How can I assist you with your IT needs?",
-    "I'm interested in learning about new technologies.",
+    "What domain is this position for?",
+    "Tell me more about our domains",
+    "Tell me more about",
     "What challenges are you facing in app development?"
 ]
 
@@ -101,7 +101,9 @@ def index():
     else:
         response_section_display = 'none'
 
-    return render_template("index.html", response=response_text, formatted_response2=formatted_response2, formatted_response3=formatted_response3, title=title, description=description, response_section_display=response_section_display)
+    return render_template("index.html", response=response_text, formatted_response2=formatted_response2, formatted_response3=formatted_response3, 
+                           title=title, description=description, 
+                           response_section_display=response_section_display, suggested_starters=suggested_starters)
 
 if __name__ == "__main__":
     app.run(debug=True)

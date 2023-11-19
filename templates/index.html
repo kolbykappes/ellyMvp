@@ -84,6 +84,9 @@
             document.querySelector('.elly-response-section').style.display = 'none';
         }
 
+        function copyTextToDescription(text) {
+            document.getElementById('description').value = text;
+        }           
     </script>
     
     <!-- Bootstrap CSS -->
@@ -120,14 +123,8 @@
         </div>
     </div>
     <div class="suggested-starters">
-        <button class="starter-btn" data-starter="Suggested starter 1">Starter 1</button>
-        <button class="starter-btn" data-starter="Suggested starter 2">Starter 2</button>
-        <button class="starter-btn" data-starter="Suggested starter 3">Starter 3</button>
-        <button class="starter-btn" data-starter="Suggested starter 4">Starter 4</button>
-    </div>
-    <div class="suggested-starters">
         {% for starter in suggested_starters %}
-            <button class="starter-btn" data-starter="{{ starter }}">{{ starter }}</button>
+        <button class="starter-btn" onclick="copyTextToDescription('{{ starter }}')">{{ starter }}</button>
         {% endfor %}
     </div>    
     <div class="elly-response-section" style="display: {{ response_section_display }}">

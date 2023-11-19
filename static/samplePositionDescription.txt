@@ -1,0 +1,45 @@
+C# developer
+
+As a Java Developer, you will provide high quality technology solutions that address business needs by developing applications within mature technology environments. You will perform full life cycle design and development for the App Dev Practice at Lightwell. 
+Responsibilities
+Create application designs in support of the application’s specifications and interfaces.
+Develop software using Java, Jax-RS and Hibernate.
+Develop data access code to Oracle databases including creating and optimizing Functions and Stored Procedures.
+Familiarity with No SQL databases such as Cassandra and MongoDB.
+Configuring Docker files for Liberty or Quarkus Container creation.
+Develop automated tests: unit, integration and end-to-end
+Work independently and as part of a team
+Ability to mentor junior developers
+Must Haves:
+6+ Years’ of experience as an application developer on the Java stack
+2+ years’ experience creating and consuming REST services
+
+
+
+Technical Lead - Angular & .NET - Architect I
+Responsibilities
+Manage a team of 2-5 software developers
+Create application designs in support of the application’s specifications and interfaces.
+Develop software using Angular, TypeScript, C#, T-SQL and more
+Develop automated tests: unit, integration and end-to-end
+Mentor junior development resources
+Must Haves:
+2+ years experience as a tech lead or team lead
+8+ years’ experience as an application developer on the .NET stack
+6+ years’ experience developing web applications
+2+ years’ experience with Angular or 3+ years experience in React, Vue or similar SPA
+2+ years’ experience creating and consuming REST services
+Strong to expert level understanding of CSS and HTML markup
+5+ years experience with a modern RDBMS like SQL Server or Oracle
+Nice to Haves:
+Experience developing solutions using Redux or NgRx
+Experience with Microsoft Azure cloud infrastructure
+You are a good fit if you…
+Have experience running small technical teams
+Have experience in building responsive web applications
+Are experienced in agile development methodologies.
+Have good organizational skills, proven analytical, planning, problem solving, and decision-making skills.
+Have the ability to manage time and meet assigned deadlines.
+Can demonstrate proven experience in troubleshooting issues.
+Have experience with hands-on technical design within large enterprise systems.
+Have experience in making best practice recommendations based on industry standards.
