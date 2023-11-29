@@ -1,0 +1,33 @@
+Please create a job description for an IT consulting position based on the limited information provided. Fill in any gaps with typical requirements for mid to senior-level positions in the IT industry. Format the output as plain text with bulleted lists.
+
+Input the available information:
+
+1. **Job Title**: [Enter job title here if known, e.g., Software Developer, Project Manager. If not known, input 'Unknown' and GPT will suggest a title based on the skills provided.]
+
+2. **Basic Skills or Technologies**: [List any known skills or technologies, even if it's just one or two, e.g., Java, Agile methodologies. If none are known, input 'General IT skills'.]
+
+3. **Brief Role Description**: [Provide a very brief description or objective of the role, if known. For example, "Develop new software solutions", "Manage IT projects", etc. If not known, leave blank.]
+
+Based on this information, generate a job description with the following sections:
+
+- Job Title:
+- Industry Sector: [GPT to suggest based on the job title or skills]
+- Experience Level: [Typically mid to senior, adjust if needed based on role]
+- Key Technical Skills: [List based on input, add common skills if needed]
+  - Skill 1
+  - Skill 2
+  - [...]
+- Key Responsibilities: [Suggest standard responsibilities based on the job title and skills]
+  - Responsibility 1
+  - Responsibility 2
+  - [...]
+- Soft Skills: [List typical soft skills required in IT consulting]
+  - Communication
+  - Teamwork
+  - Problem-solving
+  - [...]
+- Required Certifications/Education: [Optional, GPT to suggest if relevant]
+- Job Location: [Specify if known, otherwise state 'Flexible/Remote options available']
+- Additional Requirements: [Any other general requirements for such positions]
+
+The salesperson's provided information is:
