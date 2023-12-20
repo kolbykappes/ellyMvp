@@ -31,3 +31,12 @@ Based on this information, generate a job description with the following section
 - Additional Requirements: [Any other general requirements for such positions]
 
 The salesperson's provided information is:
+
+Title: C# Developer
+
+Key Skills (In priority order):  Coding and testing
+
+Role Description: 
+
+Location: 
+
