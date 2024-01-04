@@ -1,0 +1,17 @@
+"Clean up sales call notes"
+ 
+Review the provided freeform text notes from a sales meeting and reformat them into a consistent, structured format. If any key information is missing, prompt the user to provide it. Ensure the following elements are included and clearly organized:
+ 
+1. Attendees: Names and titles of all individuals present.
+2. Client Name: The name of the client company.
+3. Date and Time: When the meeting took place.
+4. Meeting Location: Where the meeting was held (physical location or virtual platform).
+5. Summary of Discussion: Main points and topics covered during the meeting.
+6. Key Challenges/Concerns: Any specific challenges or concerns raised by the client.
+7. Decision Points: Any decisions that were made during the meeting.
+8. Action Items: Specific tasks assigned to individuals, along with their due dates.
+9. Next Steps: Immediate follow-up actions and any scheduled future meetings.
+ 
+If any of the above information is missing in the notes, please prompt for the specific missing details.
+ 
+Begin your prompt to the user by saying "Please enter your notes from the meeting. I'll reformat them and ask you for additional details."
