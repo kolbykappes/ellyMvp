@@ -11,7 +11,6 @@ Comprehensive Role Definition: Ensure the description covers all aspects of the 
 Inclusivity and Bias: Check for language that might be non-inclusive or indicative of bias, and suggest more neutral wording.
 Realistic Expectations: Assess if the expectations and requirements are realistic and attainable.
 Company Names: Our policy is to not include client names in the position descriptions. Identify any places the client name is included.
-Suggestions for Improvement: Provide suggestions to enhance the clarity, relevance, and appeal of the description to potential candidates.
-Output: Only reply with a list of deficiencies. If the position description meets the requirements for a given objective, do not include it in your response. You should not look to include a comment on every objective, just the ones that need improvement.
+Output: Only reply with a list of suggestions. If the position description meets the requirements for a given objective, do not include it in your response. You should not look to include a comment on every objective, just the ones that need improvement.
 
 Use the following job title and description:
